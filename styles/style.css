@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.text-color{
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    
+    
+    
+
+}
+.image-style img{
+    width: 556.01px;
+    height: 438px;
+    padding: 20px;
+    margin-top: 153px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+
+main{
+    background: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+button
+{
+  padding-left: 50px;
+  padding-right: 50px;  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 155px;
+  margin-top: 30px;
+  color: white;
+  background-color: #E02C6D;
+  border: none;
+  transition: all 0.8s ease;
+}
+
+button:hover
+{
+  padding-left: 50px;
+  padding-right: 50px;  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 155px;
+  margin-top: 25px;
+  color: #E02C6D;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.9s ease;
+  font-weight: 700;
+}
+
+.player-box{
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 330px;
+    height: 450px;
+    margin:20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    
+   
+
+}
+.player-box img{
+    width: 300px;
+    height: 256px;
+    left: 15px;
+    top: 15px;
+    border-radius: 10px;
+}
+.h-style{
+    font-size: 20px;
+    padding: 5px;
+}
+.p-style{
+    font-size: small;
+    padding: 5px;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+.footer-logo img{
+    width: 262.1px;
+    height: 90px;
+    
+}
+.icon-style{
+    padding: 5px;
+    align-items: center;
+}
+.fa-instagram{
+    color: rgba(143, 143, 250, 0.993);
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.fa-futbol{
+    color: rgba(143, 143, 250, 0.993);
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.fa-twitter{
+    color: rgba(143, 143, 250, 0.993);
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.fa-youtube{
+    color: rgba(143, 143, 250, 0.993);
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.fa-facebook-square{
+    color: rgba(143, 143, 250, 0.993);
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.detals-style{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.footer-style{
+    margin-left: 482px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+ @media only screen and (max-width:688px) {
+     .container{
+         grid-template-columns: repeat(1,1fr);
+          
+     }
+     .text-color{
+        color: white;
+        font-size: 30px;
+        width: 230px;
+        height: 200px;
+        margin-left: 156px;
+        margin-top: 207px;  
+    
+    }
+    .image-style img{
+        width: 420px;
+        height: 320px;
+        padding: 20px;
+        margin-top: 153px;
+        margin-bottom: 60px;
+        
+        
+    }
+    
+     
+
+     .player{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 80px;
+         
+     }
+     .footer-style{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 55px;
+     }
+ }
